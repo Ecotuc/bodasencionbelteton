@@ -5,7 +5,7 @@ function App() {
     <div className='main-container container text-center'>
       <div className="row video text-center">
         <div className="video-container">
-          <video src="/video/invite.mp4" controls style={{ width: '80%' }}>
+          <video src="/video/invite.mp4" controls playsinline style={{ width: '80%' }}>
             Tu navegador no soporta el elemento de video.
           </video>
         </div>
