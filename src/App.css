@@ -1,0 +1,119 @@
+.main-container{
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  background-image: url('../public/images/background.jpeg'); /* Ruta de la imagen relativa a la carpeta public */
+  background-size: cover; /* La imagen cubre todo el área del div */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* No repite la imagen */
+  height: 100vh; /* Altura del div igual a la altura de la ventana */
+  width: 100%; /* Ancho completo */
+  padding-top: 3rem;
+  
+  flex-direction: column;
+}
+
+.video-container {
+  /* background: blue; */
+  max-width: 800px; /* Ajusta el ancho máximo */
+  margin: 0 auto;   /* Centra horizontalmente */
+}
+
+.image-container {
+  text-align: center; /* Centra el contenido */
+}
+
+.image-container img {
+  width: 4rem; /* La imagen no será más grande que el contenedor */
+  height: auto; /* Mantiene la proporción */
+}
+
+.image-container-names img{
+  width: 20rem; /* La imagen no será más grande que el contenedor */
+  height: auto; /* Mantiene la proporción */
+}
+
+.image-container-date img{
+  width: 12rem; /* La imagen no será más grande que el contenedor */
+  height: auto; /* Mantiene la proporción */
+}
+
+.image-container-date-location,
+.image-container-date-presents{
+  /* background:yellow; */
+  height: 2rem;
+}
+
+.image-container-date-location img{
+  width: 15rem; /* La imagen no será más grande que el contenedor */
+  height: auto; /* Mantiene la proporción */
+}
+
+.image-container-date-presents img{
+  width: 15rem; /* La imagen no será más grande que el contenedor */
+  height: auto; /* Mantiene la proporción */
+}
+
+.rings{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  max-width: 100%;
+  height: 5rem;
+  padding: 0;
+  /* background: pink; */
+}
+
+.names{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  max-width: 100vh;
+  height: 6 rem;
+  /* padding:1rem 0 0.5rem 0; */
+  /* background: yellow; */
+}
+
+.date{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  max-width: 100vh;
+  height: 6 rem;
+  /* padding: 1rem 0; */
+  /* background: green; */
+}
+
+.buttns{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-between;
+  max-width: 100vh;
+  padding: 1rem 0;
+  height: 7rem;
+  /* background: red; */
+}
+
+.line-container {
+  flex-grow: 1; /* Ocupa el espacio restante en el contenedor principal */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Alinea la línea desde abajo */
+}
+
+.vertical-line {
+  width: 1.5px;
+  height: 100%; /* Se ajusta a la altura del contenedor */
+  background-color: black;
+}
+
+.cont{
+  justify-content: space-around;
+  align-items: center; 
+  flex-shrink: 0;
+}
+
+a{
+  max-height: 1.5rem;
+}
